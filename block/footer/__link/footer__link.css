@@ -1,0 +1,5 @@
+.footer__link{
+    all: unset;
+    cursor: pointer;
+    text-decoration: none;
+}

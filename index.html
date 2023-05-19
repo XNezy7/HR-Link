@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./pages/index.css">
+    <link rel="stylesheet" type="text/css" href="./pages/index.css">
+    <title>HR-LINK</title>
+</head>
+
+<body class="body">
+    <section class="login">
+            <h1 class="login__title">Войти в HR-Link</h1>
+
+        <div class="login__wrapper">
+            <img class="login__image" src="./images/loginImage.png" alt="Войти в HR-LINK">
+        </div>
+        <form>
+            <label class="login__data">
+                <p class="login__label">Email/Телефон/WhatsApp</p>
+            </label>
+            <div>
+                <input type="text" class="login__input" placeholder="Введите телефон" minlength="2" maxlength="35"
+                    required>
+            </div>
+            <label class="login__data">
+                <p class="login__label">Пароль</p>
+                <a class="login__link">Не знаете пароль?</a>
+            </label>
+            <div class="login__password">
+                <input type="password" name="password" id="login_password" minlength="2" maxlength="35"
+                    class="login__input" placeholder="Введите пароль" required>
+                <button class="login__control" onclick="return show_hide_password(this);"> </button>
+            </div>
+            <div class="login__send">
+                <button class="login__submit" type="submit">Войти</button>
+                <a class="login__arrow">&rarr;</a>
+            </div>
+        </form>
+        <p class="login__border"></p>
+    </section>
+    <footer class="footer">
+        <a class="footer__link" href="https://hr-link.ru">
+            <p class="footer__author">Copyright &copy; 2023 HR-Link</p>
+        </a>
+    </footer>
+    <script src="./pages/index.js"></script>
+</body>
+
+</html>

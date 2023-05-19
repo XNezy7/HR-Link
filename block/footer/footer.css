@@ -1,0 +1,6 @@
+@import url(./__author/footer__author.css);
+@import url(./__link/footer__link.css);
+
+.footer {
+    margin: 100px auto 25px;
+}

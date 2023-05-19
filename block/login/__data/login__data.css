@@ -1,0 +1,4 @@
+.login__data {
+    display: grid;
+    grid-template-areas: "title button";
+}

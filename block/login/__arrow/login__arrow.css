@@ -1,0 +1,10 @@
+.login__arrow{
+    all: unset;
+    position: absolute;
+    color: #fff;
+    margin-left: auto;
+    z-index: 2;
+    right: 20px;
+    font-size: x-large;
+    top: 12px;
+}

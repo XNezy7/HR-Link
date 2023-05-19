@@ -1,0 +1,7 @@
+.login__label {
+    opacity: .5;
+    margin: 2px 0 8px;
+    text-align: left;
+    grid-area: title;
+    font-family: 'Montserrat', Arial, sans-serif;
+}

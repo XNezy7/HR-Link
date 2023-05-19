@@ -1,0 +1,16 @@
+.login__control {
+    all: unset;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    right: 20px;
+    z-index: 1;
+    cursor: pointer;
+    background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+}
+
+
+.login__control.view {
+    background: url(https://snipp.ru/demo/495/no-view.svg)0 0 no-repeat;
+}

@@ -1,0 +1,15 @@
+.login__submit {
+    all: unset;
+    font-family: 'Montserrat', Arial, sans-serif;
+    display: flex;
+    background-color: rgba(45,0,213);
+    color: #fff;
+    width: 305px;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 15px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    cursor: pointer;
+}
